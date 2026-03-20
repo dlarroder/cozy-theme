@@ -1,6 +1,6 @@
 # Cozy Theme
 
-A warm, cozy dark theme for VS Code that's easy on the eyes during long coding sessions.
+A warm, cozy dark theme for VS Code and Cursor that's easy on the eyes during long coding sessions.
 
 ## Preview
 
@@ -10,7 +10,7 @@ A warm, cozy dark theme for VS Code that's easy on the eyes during long coding s
 
 | Role        | Color | Hex       |
 | ----------- | ----- | --------- |
-| Background  | ![Background](https://img.shields.io/badge/-%20%20%20%20%20-0a070e?style=flat-square&labelColor=0a070e) | `#0a070e` |
+| Background  | ![Background](https://img.shields.io/badge/-%20%20%20%20%20-0e0b13?style=flat-square&labelColor=0e0b13) | `#0e0b13` |
 | Foreground  | ![Foreground](https://img.shields.io/badge/-%20%20%20%20%20-d4c5b9?style=flat-square&labelColor=d4c5b9) | `#d4c5b9` |
 | Accent      | ![Accent](https://img.shields.io/badge/-%20%20%20%20%20-e8a87c?style=flat-square&labelColor=e8a87c) | `#e8a87c` |
 | Keywords    | ![Keywords](https://img.shields.io/badge/-%20%20%20%20%20-c491cf?style=flat-square&labelColor=c491cf) | `#c491cf` |
@@ -23,9 +23,9 @@ A warm, cozy dark theme for VS Code that's easy on the eyes during long coding s
 
 ## Installation
 
-### From VS Code Marketplace
+### From Marketplace (VS Code & Cursor)
 
-1. Open **Extensions** sidebar in VS Code (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+1. Open **Extensions** sidebar (`Ctrl+Shift+X` / `Cmd+Shift+X`)
 2. Search for `Cozy Theme`
 3. Click **Install**
 4. Open **Command Palette** (`Ctrl+Shift+P` / `Cmd+Shift+P`)
@@ -33,11 +33,11 @@ A warm, cozy dark theme for VS Code that's easy on the eyes during long coding s
 
 ### From Source
 
-1. Clone this repository into your VS Code extensions directory:
+1. Clone this repository into your extensions directory:
    ```bash
    git clone https://github.com/dlarroder/cozy-theme ~/.vscode/extensions/cozy-theme
    ```
-2. Restart VS Code
+2. Restart your editor
 3. Select the theme via **Preferences: Color Theme** → **Cozy Theme**
 
 ## Development
@@ -51,8 +51,9 @@ A warm, cozy dark theme for VS Code that's easy on the eyes during long coding s
 
 ```bash
 bun install
-bun run package    # creates a .vsix file
-bun run publish    # publishes to VS Code Marketplace
+bun run package          # creates a .vsix file
+bun run publish          # publishes to VS Code Marketplace
+bun run publish:ovsx     # publishes to Open VSX (Cursor)
 ```
 
 ## License

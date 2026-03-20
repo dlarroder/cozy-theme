@@ -1,46 +1,48 @@
 {
-  "name": "cozy-theme",
-  "displayName": "Cozy Theme",
-  "description": "A warm, cozy dark theme for VS Code that's easy on the eyes during long coding sessions.",
-  "version": "0.1.0",
-  "publisher": "dalelarroder",
-  "license": "MIT",
-  "engines": {
-    "vscode": "^1.80.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "dark",
-    "cozy",
-    "warm",
-    "color-theme"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Cozy Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/cozy-color-theme.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dalelarroder/cozy-theme"
-  },
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#1a1521",
-    "theme": "dark"
-  },
-  "scripts": {
-    "package": "vsce package",
-    "publish": "vsce publish"
-  },
-  "devDependencies": {
-    "@vscode/vsce": "^3.2.2"
-  }
+	"name": "cozy-theme",
+	"displayName": "Cozy Theme",
+	"description": "A warm, cozy dark theme for VS Code that's easy on the eyes during long coding sessions.",
+	"version": "0.1.0",
+	"publisher": "dlarroder",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark",
+		"cozy",
+		"warm",
+		"color-theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Cozy Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cozy-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dlarroder/cozy-theme"
+	},
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#1a1521",
+		"theme": "dark"
+	},
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish",
+		"publish:ovsx": "ovsx publish cozy-theme-0.1.0.vsix"
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.2.2",
+		"ovsx": "^0.10.9"
+	}
 }
