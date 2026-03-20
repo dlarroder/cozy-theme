@@ -10,7 +10,7 @@ A warm, cozy dark theme for VS Code that's easy on the eyes during long coding s
 
 | Role        | Color | Hex       |
 | ----------- | ----- | --------- |
-| Background  | ![Background](https://img.shields.io/badge/-%20%20%20%20%20-150f1c?style=flat-square&labelColor=150f1c) | `#150f1c` |
+| Background  | ![Background](https://img.shields.io/badge/-%20%20%20%20%20-110c17?style=flat-square&labelColor=110c17) | `#110c17` |
 | Foreground  | ![Foreground](https://img.shields.io/badge/-%20%20%20%20%20-d4c5b9?style=flat-square&labelColor=d4c5b9) | `#d4c5b9` |
 | Accent      | ![Accent](https://img.shields.io/badge/-%20%20%20%20%20-e8a87c?style=flat-square&labelColor=e8a87c) | `#e8a87c` |
 | Keywords    | ![Keywords](https://img.shields.io/badge/-%20%20%20%20%20-c491cf?style=flat-square&labelColor=c491cf) | `#c491cf` |
