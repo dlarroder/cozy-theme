@@ -2,7 +2,7 @@
 	"name": "cozy-theme",
 	"displayName": "Cozy Theme",
 	"description": "A warm, cozy dark theme for VS Code that's easy on the eyes during long coding sessions.",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"publisher": "dlarroder",
 	"license": "MIT",
 	"engines": {
@@ -33,13 +33,13 @@
 	},
 	"icon": "icon.png",
 	"galleryBanner": {
-		"color": "#1a1521",
+		"color": "#0d0c0b",
 		"theme": "dark"
 	},
 	"scripts": {
 		"package": "vsce package",
 		"publish": "vsce publish",
-		"publish:ovsx": "ovsx publish cozy-theme-0.1.0.vsix"
+		"publish:ovsx": "ovsx publish cozy-theme-0.2.0.vsix"
 	},
 	"devDependencies": {
 		"@vscode/vsce": "^3.2.2",

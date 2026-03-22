@@ -10,7 +10,7 @@ A warm, cozy dark theme for VS Code and Cursor that's easy on the eyes during lo
 
 | Role        | Color | Hex       |
 | ----------- | ----- | --------- |
-| Background  | ![Background](https://img.shields.io/badge/-%20%20%20%20%20-0e0b13?style=flat-square&labelColor=0e0b13) | `#0e0b13` |
+| Background  | ![Background](https://img.shields.io/badge/-%20%20%20%20%20-0d0c0b?style=flat-square&labelColor=0d0c0b) | `#0d0c0b` |
 | Foreground  | ![Foreground](https://img.shields.io/badge/-%20%20%20%20%20-d4c5b9?style=flat-square&labelColor=d4c5b9) | `#d4c5b9` |
 | Accent      | ![Accent](https://img.shields.io/badge/-%20%20%20%20%20-e8a87c?style=flat-square&labelColor=e8a87c) | `#e8a87c` |
 | Keywords    | ![Keywords](https://img.shields.io/badge/-%20%20%20%20%20-c491cf?style=flat-square&labelColor=c491cf) | `#c491cf` |
